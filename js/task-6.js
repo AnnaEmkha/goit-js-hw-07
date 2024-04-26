@@ -24,9 +24,10 @@ buttonCreate.addEventListener('click', function() {
 if (amountBoxes >= 1 && amountBoxes <= 100)//перевірила чи проходить ця кількість валідацію від 1 до 100 включно 
  {
     createBoxes(amountBoxes);
-   } else {
-    alert('Не вірно введене значення. Кількість має бути від 1 до 100')
-   }
+    } else {
+  alert
+    // ('Не вірно введене значення. Кількість має бути від 1 до 100')
+    }
 }); 
 
 function createBoxes(amount) {

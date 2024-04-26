@@ -59,7 +59,7 @@ ul {
 }
 
 .gallery-item {
-  height: 100%;
+  display: block;
 }
 
 h1 {
@@ -144,7 +144,6 @@ button:hover {
   align-items: center;
   justify-content: center;
   background: #f6f6fe;
-  width: 486px;
   height: 104px;
   padding: 32px;
   border-radius: 8px;
@@ -152,7 +151,6 @@ button:hover {
 #controls input {
   width: 150px;
   height: 40px;
-  padding: 8px 72px;
   gap: 10px;
   border-radius: 8px;
   border: 1px solid #808080;
@@ -171,4 +169,15 @@ button:hover {
 }
 #controls button:last-child:hover {
   background-color: #ff7070;
+}
+#boxes {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 44px;
+  background-color: #f6f6fe;
+  margin-top: 16px;
+  padding: 32px;
+  border-radius: 8px;
 }
